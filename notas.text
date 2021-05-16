@@ -1,0 +1,21 @@
+BEM:
+Este proyecto esta hecho en BEM (block Element Modifier)
+es una metodologia para crear codigo reutilizable y ordenado en tus
+proyectos con CSS, para utilizarlos hay que seguir las convenciones
+de BEM, gracias a estas convenciones se evita la colisión de nombres
+
+Reglas de BEM:
+Bloques: Son un Contenedor, si una sección por si sola es significativa
+y no requiere de otras secciones para su apariencia (CSS) deberá ir en
+un bloque
+Elementos: Son parte de un bloque, depende del bloque y no es por si solo
+significativo; tienen la caraterística de que utilizan el nombre del
+bloque y después doble guion abajo.
+Modificadores: ¿Un Bloque o Elemento tendrá una Variable?, Se utiliza un
+modificador que es una "bandera" que avisa que ese elemento tendrá un
+diseño diferente.
+
+-1 crear el archivo HTML colocarle el titulo y 3 <links>, normalize.css,
+styles.css y fuentes de Google Fonts
+
+-2 se crea el archivo styles.css y se registran custom propertys :root {}
